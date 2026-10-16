@@ -3,7 +3,7 @@ const researchAreas = [
     index: "01",
     title: "Market Microstructure",
     description:
-      "Decoding onchain order flow and volume to map crypto liquidity.",
+      "Decoding on-chain order flow and volume to map crypto liquidity.",
   },
   {
     index: "02",
@@ -135,9 +135,9 @@ export default function App() {
 
       <section className="grid border-b border-[#11110f] bg-[#e84b1a] lg:grid-cols-[1fr_22rem]">
         <div className="px-5 py-16 md:px-10 md:py-24">
-          <p className="section-label mb-24">Our position</p>
+          <p className="section-label mb-24">Our mission</p>
           <blockquote className="max-w-5xl text-[clamp(2.8rem,6.5vw,6.5rem)] font-medium leading-[0.95] tracking-[-0.055em]">
-            Access to high end infrastructure shouldn't be reserved
+            To build proprietary research tools and turn them into quantifiable alpha
           </blockquote>
         </div>
 
@@ -153,13 +153,12 @@ export default function App() {
                    <h2 className="max-w-5xl text-[clamp(2.8rem,6vw,6rem)] font-medium leading-[0.95] tracking-[-0.055em]">
                      Researcher, strategist,
                      <br />
-                     and systems-minded builder.
+                     and developer.
                    </h2>
                    <p className="mt-10 max-w-2xl text-lg leading-8 text-[#51514d]">
                      I work across research, technology, and design to turn complex
-                     questions into clear ideas and useful products. My approach is
-                     practical: understand the system, find the signal, and build
-                     what matters.
+                     questions into useful systems. My approach is
+                     practical and efficient.
                    </p>
                  </div>
 
