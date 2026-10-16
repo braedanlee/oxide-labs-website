@@ -19,6 +19,15 @@ const researchAreas = [
   },
 ]
 
+const techStack = [
+  "TypeScript",
+  "React",
+  "Python",
+  "Node.js",
+  "Tailwind CSS",
+  "Git",
+]
+
 export default function App() {
   return (
     <main className="min-h-screen bg-[#f1f0eb] text-[#11110f] selection:bg-[#e84b1a] selection:text-white">
@@ -58,18 +67,18 @@ export default function App() {
           </p>
           <div>
             <h1 className="max-w-5xl text-[clamp(4.2rem,11.5vw,10.5rem)] font-semibold leading-[0.78] tracking-[-0.075em]">
-              Clear thinking.
+              Private Research.
               <br />
-              <span className="text-[#e84b1a]">Hard questions.</span>
+              <span className="text-[#e84b1a]">Without Restrictions.</span>
             </h1>
             <div className="mt-12 flex flex-col items-start justify-between gap-8 border-t border-[#11110f] pt-6 md:flex-row md:items-end">
               <p className="max-w-xl text-lg leading-7 md:text-xl md:leading-8">
                 Oxide Labs is an independent research firm investigating
                 machine learning, infrastructure, and the systems shaping what comes
-                next in the financial landscape.
+                next in the Decentralized Finance (Defi) Landscape.
               </p>
               <a className="solid-link shrink-0" href="#research">
-                Check out our missions
+                Our mission
                 <span aria-hidden="true">↓</span>
               </a>
             </div>
@@ -128,15 +137,74 @@ export default function App() {
         <div className="px-5 py-16 md:px-10 md:py-24">
           <p className="section-label mb-24">Our position</p>
           <blockquote className="max-w-5xl text-[clamp(2.8rem,6.5vw,6.5rem)] font-medium leading-[0.95] tracking-[-0.055em]">
-            “random bullshit GOOOO.”
+            Access to high end infrastructure shouldn't be reserved
           </blockquote>
         </div>
-        <div className="flex min-h-64 items-end border-t border-[#11110f] p-8 lg:border-l lg:border-t-0">
-          <p className="max-w-xs text-sm leading-6">
-            Our work is fun i guess.
-          </p>
-        </div>
+
       </section>
+
+      <section id="about" className="border-b border-[#11110f]">
+             <div className="grid lg:grid-cols-[18rem_1fr]">
+               <div className="border-b border-[#11110f] px-5 py-8 md:px-10 lg:border-b-0 lg:border-r lg:py-14">
+                 <p className="section-label">About me</p>
+               </div>
+               <div>
+                 <div className="border-b border-[#11110f] px-5 py-12 md:px-10 md:py-16">
+                   <h2 className="max-w-5xl text-[clamp(2.8rem,6vw,6rem)] font-medium leading-[0.95] tracking-[-0.055em]">
+                     Researcher, strategist,
+                     <br />
+                     and systems-minded builder.
+                   </h2>
+                   <p className="mt-10 max-w-2xl text-lg leading-8 text-[#51514d]">
+                     I work across research, technology, and design to turn complex
+                     questions into clear ideas and useful products. My approach is
+                     practical: understand the system, find the signal, and build
+                     what matters.
+                   </p>
+                 </div>
+
+                 <div className="grid md:grid-cols-2">
+                   <div className="border-b border-[#11110f] px-5 py-10 md:border-b-0 md:border-r md:px-10 md:py-12">
+                     <p className="section-label mb-8">Contact</p>
+                     <div className="flex flex-col items-start gap-4">
+                       <a
+                         className="about-link"
+                         href="https://discord.com/users/721311918488289300"
+                         rel="noreferrer"
+                         target="_blank"
+                       >
+                         Discord:braedanlee
+                         <span aria-hidden="true">→</span>
+                       </a>
+                       <a
+                         className="about-link"
+                         href="https://t.me/lggd_0x"
+                         rel="noreferrer"
+                         target="_blank"
+                       >
+                         Telegram:lggd_0x
+                         <span aria-hidden="true">→</span>
+                       </a>
+                     </div>
+                   </div>
+
+                   <div className="px-5 py-10 md:px-10 md:py-12">
+                     <p className="section-label mb-8">Working stack</p>
+                     <ul className="grid grid-cols-2 border-l border-t border-[#11110f]">
+                       {techStack.map((technology) => (
+                         <li
+                           className="border-b border-r border-[#11110f] px-4 py-4 font-mono text-xs uppercase tracking-[0.08em]"
+                           key={technology}
+                         >
+                           {technology}
+                         </li>
+                       ))}
+                     </ul>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </section>
 
       <footer className="bg-[#161614] px-5 pb-8 pt-16 text-[#f1f0eb] md:px-10 md:pt-24">
         <div className="mb-32 flex flex-col items-start justify-between gap-10 md:flex-row md:items-end">
@@ -145,7 +213,10 @@ export default function App() {
             <br />
             point of view?
           </h2>
-          <a className="light-link shrink-0" href="instagram.com/breading.co">
+          <a className="light-link shrink-0"
+            href="https://t.me/lggd_0x"
+            rel="noreferrer"
+            target="_blank">
             Start a conversation
             <span aria-hidden="true">→</span>
           </a>
