@@ -42,7 +42,7 @@ export default function App() {
         </a>
         <div className="flex items-center gap-6 md:gap-10">
           <a className="nav-link hidden sm:block" href="#research">
-            WHAT WE do
+            Mission
           </a>
           <a
             className="nav-link"
@@ -110,7 +110,7 @@ export default function App() {
       <section id="research" className="border-b border-[#11110f]">
         <div className="grid md:grid-cols-[18rem_1fr]">
           <div className="border-b border-[#11110f] px-5 py-8 md:border-b-0 md:border-r md:px-10 md:py-14">
-            <p className="section-label">What we do</p>
+            <p className="section-label">What we specialize in</p>
           </div>
           <div>
             {researchAreas.map((area) => (
@@ -146,7 +146,7 @@ export default function App() {
       <section id="about" className="border-b border-[#11110f]">
              <div className="grid lg:grid-cols-[18rem_1fr]">
                <div className="border-b border-[#11110f] px-5 py-8 md:px-10 lg:border-b-0 lg:border-r lg:py-14">
-                 <p className="section-label">About me</p>
+                 <p className="section-label">About</p>
                </div>
                <div>
                  <div className="border-b border-[#11110f] px-5 py-12 md:px-10 md:py-16">
