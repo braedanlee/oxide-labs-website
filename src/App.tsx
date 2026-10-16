@@ -46,7 +46,7 @@ export default function App() {
           </a>
           <a
             className="nav-link"
-            href="https://instagram.com/breading.co"
+            href="https://t.me/lggd_0x"
             rel="noreferrer"
             target="_blank"
           >
