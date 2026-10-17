@@ -135,9 +135,9 @@ export default function App() {
 
       <section className="grid border-b border-[#11110f] bg-[#e84b1a] lg:grid-cols-[1fr_22rem]">
         <div className="px-5 py-16 md:px-10 md:py-24">
-          <p className="section-label mb-24">Our mission</p>
+
           <blockquote className="max-w-5xl text-[clamp(2.8rem,6.5vw,6.5rem)] font-medium leading-[0.95] tracking-[-0.055em]">
-            To build proprietary research tools and turn them into quantifiable alpha
+            Building proprietary research tools and turning them into quantifiable alpha
           </blockquote>
         </div>
 
